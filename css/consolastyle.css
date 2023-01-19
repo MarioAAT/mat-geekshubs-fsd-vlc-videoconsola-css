@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+/* fondo */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(purple,pink);
+}
+
+/* Carcasa */
+
+#carcasa{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 33vw;
+    background: radial-gradient( orange,yellow);
+    border-radius: 10px;
+}
+
+/* pantalla */
+
+#pantalla{
+    display: flex;
+    height: 44vh;
+    width: 26vw;
+    background-color: black;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+/* controles */
+
+#controles{
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    width: 30vw;
+    /* border: solid; */
+}
+
+/* controles izquierda */
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    border: solid 1px;
+
+}
+
+#scroll-l{
+    height: 15vh;
+    width: 15vh;
+    background-color: black;
+    border-radius: 45px;
+    position: relative;
+    /* margin-bottom: 10vh; */
+    margin-top: 10px;
+}
+
+#cruz{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+#cruz-v{
+    position: absolute;
+    height: 80px;
+    width: 25px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+#cruz-h{
+    position: absolute;
+    height: 25px;
+    width: 80px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+/* controles derecha */
+
+#center{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    align-items: center; */
+    border: solid 1px;
+    width: 10vw;
+}
+
+/* controles derecha */
+
+#right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;*/
+    align-items: center; 
+    border: solid 1px;
+    width: 10vw;
+}
+
+#scroll-d{
+    height: 15vh;
+    width: 15vh;
+    background-color: black;
+    border-radius: 45px;
+    position: relative;
+    /* margin-bottom: 10vh; */
+    margin-top: 10px;
+}
