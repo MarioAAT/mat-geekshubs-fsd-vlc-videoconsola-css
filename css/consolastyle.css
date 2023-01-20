@@ -23,9 +23,10 @@ main{
     justify-content: center;
     align-items: center;
     height: 93vh;
-    width: 33vw;
+    width: 30vw;
     background: radial-gradient( orange,yellow);
     border-radius: 10px;
+    border: inset 5px;
 }
 
 /* pantalla */
@@ -132,27 +133,39 @@ main{
 #buttom-cruz{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 80px;
-    width: 80px;
-    margin-bottom: 30px;
-    border: solid;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 23px;
+    /* border: solid; */
 }
 
-#buttom-v{
+.buttom-v{
     /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 100px;
     width: 50px;
     
 }
 
+.buttom-h{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    width: 100px;
+    
+}
+
 .botones{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     background-color: black;
+    border-radius: 45px;
 }
