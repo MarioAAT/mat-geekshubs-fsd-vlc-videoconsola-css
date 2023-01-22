@@ -58,6 +58,8 @@ main{
 
 #pantalla{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 44vh;
     width: 26vw;
     background-color: black;
@@ -65,7 +67,16 @@ main{
     border-radius: 10px;
 }
 
-#pantalla:hover{
+.pant-2{
+    height: 40vh;
+    width: 24vw;
+    /* background-color: grey; */
+    background: linear-gradient(150deg, rgb(26, 26, 26), rgb(87, 86, 86));
+    border-radius: 10px;
+
+}
+
+.pant-2:hover{
     background-image: url(../assets/cup4.jpg)
 }
 
