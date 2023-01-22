@@ -13,6 +13,25 @@ main{
     width: 100vw;
     background: radial-gradient(purple,pink);
 }
+/* 
+#carcasa-tras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 30vw;
+    margin-bottom: 14px;
+    margin-right: 15px;
+    background-color: black;
+    background: linear-gradient(360deg, yellow, orange 250px);
+    background: radial-gradient( orange,yellow);
+    border-radius: 10px 20px 10px 15px;
+    border: inset 5px;
+    border: solid black 1px;
+
+} */
 
 /* Carcasa */
 
@@ -26,8 +45,13 @@ main{
     width: 30vw;
     background: linear-gradient(360deg, yellow, orange 250px);
     /* background: radial-gradient( orange,yellow); */
-    border-radius: 10px;
-    border: inset 5px;
+    border-radius: 10px 20px 10px 20px;
+    /* border: solid black ; */
+    border-bottom: 3px;
+    box-shadow: -10px -8px 5px ;
+    border-top: inset;
+    border-left: inset;
+    /* border: inset 5px; */
 }
 
 /* pantalla */
@@ -42,7 +66,7 @@ main{
 }
 
 #pantalla:hover{
-    background-color: purple;
+    background-image: url(../assets/cup4.jpg)
 }
 
 /* controles */
@@ -70,7 +94,7 @@ main{
 #scroll-l{
     height: 15vh;
     width: 15vh;
-    background: radial-gradient(rgb(152, 152, 152), rgb(70, 70, 70) 10%, black 40%);
+    background: radial-gradient(black 50%,rgb(70, 70, 70),rgb(152, 152, 152)100% );
     border-radius: 50px;
     border: outset;
     position: relative;
@@ -254,7 +278,7 @@ hr{
 #scroll-d{
     height: 15vh;
     width: 15vh;
-    background: linear-gradient(330deg, gray, black 50px);
+    background: radial-gradient(black 50%,rgb(70, 70, 70),rgb(152, 152, 152)100% );
     border-radius: 50px;
     border: outset;
     position: relative;
